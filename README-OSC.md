@@ -1,44 +1,49 @@
-# Postiz on Eyevinn Open Source Cloud
+# Eyevinn Open Source Cloud
 
-Postiz is the ultimate social media scheduling tool with AI capabilities. Schedule posts, manage multiple social media accounts, and leverage AI to create compelling content — all from a single platform.
+## Turn Your Open Source Project into a Revenue Stream
 
-## Features
+Welcome to [Eyevinn Open Source Cloud](https://www.osaas.io) - the platform that democratizes infrastructure and creates sustainable revenue for open source creators.
 
-- Schedule posts across all major social media platforms
-- AI-powered content generation
-- Team collaboration support
-- Analytics and performance tracking
-- OAuth integrations for X, LinkedIn, Reddit, Facebook, YouTube, TikTok, Pinterest, Discord, Slack, Mastodon, and more
+### Why Eyevinn Open Source Cloud Benefits You as a Creator
 
-## Quick Start on OSC
+**🚀 Zero Infrastructure Costs**  
+Your users get enterprise-grade hosting and scaling without you managing servers, paying hosting bills, or dealing with DevOps complexity. We handle the infrastructure so you can focus on what you do best - building great software.
 
-Deploy Postiz on Eyevinn Open Source Cloud with a single click. You will need:
+**💰 Monetize Your Open Source Work**  
+Finally get paid for your contributions to the open source ecosystem. When users deploy your project through our platform, you automatically receive a share of the revenue. No complicated pricing models or payment processing required.
 
-- A PostgreSQL database URL (`DATABASE_URL`)
-- A Redis URL (`REDIS_URL`)
-- A JWT secret (`JWT_SECRET`)
+**📈 Reach More Users**  
+Remove the biggest barrier to adoption - deployment complexity. Your project becomes instantly accessible to non-technical users and small teams who need your solution but lack the resources for self-hosting.
 
-Optional but recommended:
-- Social media API keys for the platforms you want to integrate
-- OpenAI API key for AI content generation
+**🎯 Level the Playing Field**  
+Small and medium projects now have access to the same infrastructure capabilities as big tech companies. Your innovative tool can compete on features, not on who has the biggest infrastructure budget.
 
-## Environment Variables
+### How It Works
 
-| Variable | Required | Description |
-|----------|----------|-------------|
-| `DATABASE_URL` | Yes | PostgreSQL connection URL |
-| `REDIS_URL` | Yes | Redis connection URL |
-| `JWT_SECRET` | Yes | Secret for JWT token signing |
-| `DISABLE_REGISTRATION` | No | Set to `true` to disable new user registration |
-| `OPENAI_API_KEY` | No | OpenAI API key for AI features |
-| `X_API_KEY` / `X_API_SECRET` | No | X (Twitter) API credentials |
-| `LINKEDIN_CLIENT_ID` / `LINKEDIN_CLIENT_SECRET` | No | LinkedIn OAuth credentials |
-| `FACEBOOK_APP_ID` / `FACEBOOK_APP_SECRET` | No | Facebook/Instagram credentials |
+1. **Claim Ownership**: Create your account on [osaas.io](https://www.osaas.io) and connect your GitHub account
+2. **Automatic Recognition**: We verify your ownership of this repository
+3. **Instant Revenue**: Start earning from every deployment of your project
+4. **Focus on Code**: Continue developing while we handle scaling, security, and operations
 
-See the full list of supported social media integrations in [the official documentation](http://docs.postiz.com/configuration/reference).
+### For Your Users
 
-## Links
+Users pay only for what they use, getting professional-grade hosting without the complexity. They can deploy your project in minutes instead of hours or days, making your solution accessible to a broader audience.
 
-- [Official Documentation](http://docs.postiz.com)
-- [GitHub Repository](https://github.com/gitroomhq/postiz-app)
-- [Eyevinn Open Source Cloud](https://www.osaas.io)
+### Community & Support
+
+Join our vibrant community of open source creators:
+
+- **💬 [Slack Workspace](https://slack.osaas.io)** - Connect with other creators, get help, and share your experiences
+- **🐙 [GitHub](https://github.com/EyevinnOSC)** - Contribute to the platform and follow development updates  
+- **💼 [LinkedIn](https://www.linkedin.com/company/eyevinn-open-source-cloud/)** - Stay updated with news and announcements
+- **📚 [Documentation](https://docs.osaas.io)** - User guides and best practices
+
+### Join the Movement
+
+Help us democratize access to open source infrastructure and create a sustainable ecosystem where creators are rewarded for their contributions.
+
+**[Get Started →](https://www.osaas.io)**
+
+---
+
+*Eyevinn Open Source Cloud - Making open source more accessible, one deployment at a time.*
