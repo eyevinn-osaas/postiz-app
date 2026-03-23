@@ -23,7 +23,7 @@ WORKDIR /app
 COPY . /app
 
 RUN pnpm install
-RUN NODE_OPTIONS="--max-old-space-size=2048" pnpm run build
+RUN NODE_OPTIONS="--max-old-space-size=4096" pnpm run build
 
 RUN mkdir -p /uploads /config
 
